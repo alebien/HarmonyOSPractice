@@ -15,9 +15,11 @@ struct Index {
   build() {
     Row() {
       Column() {
-        Button('Next')
+        Button(this.message)
           .fontColor('#ff0000')
           .onClick(() => router.pushUrl({url: 'pages/test', params: new routerParams('Index数据')}))
+          .backgroundImageSize(ImageSize.Auto)
+          .width('180.00vp')
       }
       .width('100%')
     }

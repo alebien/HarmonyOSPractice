@@ -6,7 +6,9 @@
     "mainElement": "EntryAbility",
     "deviceTypes": [
       "phone",
-      "tablet"
+      "tablet",
+      "wearable",
+      "default"
     ],
     "deliveryWithInstall": true,
     "installationFree": false,
